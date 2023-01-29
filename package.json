@@ -1,6 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "Collection of console games about solving math.",
   "main": "index.js",
   "scripts": {

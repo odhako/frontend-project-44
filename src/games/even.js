@@ -6,7 +6,7 @@ const gameEven = (numberOfGames, maxRandomNumber) => {
   for (let i = 0; i < numberOfGames; i += 1) {
     const randomNumber = Math.floor(Math.random() * maxRandomNumber);
     const rightAnswer = randomNumber % 2 === 0 ? 'yes' : 'no';
-    games.push([randomNumber, rightAnswer])
+    games.push([randomNumber, rightAnswer]);
   }
 
   return gameContents;

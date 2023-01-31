@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const gameEngine = (game) => {
   const numberOfGames = 3;
-  const maxRandomNumber = 100;
+  const maxRandomNumber = 50;
 
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');

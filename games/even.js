@@ -1,4 +1,6 @@
-const gameEven = (numberOfGames, maxRandomNumber) => {
+const maxRandomNumber = 100;
+
+const gameEven = (numberOfGames) => {
   const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
   const games = [];
   const gameContents = [rules, games];

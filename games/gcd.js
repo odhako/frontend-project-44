@@ -1,3 +1,5 @@
+const maxRandomNumber = 100;
+
 const calcGcd = (number1, number2) => {
   let gcd = 1;
   let i = 1;
@@ -11,7 +13,7 @@ const calcGcd = (number1, number2) => {
   return gcd;
 };
 
-const gameGcd = (numberOfGames, maxRandomNumber) => {
+const gameGcd = (numberOfGames) => {
   const rules = 'Find the greatest common divisor of given numbers.';
   const games = [];
   const gameContents = [rules, games];

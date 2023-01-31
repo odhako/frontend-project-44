@@ -1,4 +1,6 @@
-const gameCalc = (numberOfGames, maxRandomNumber) => {
+const maxRandomNumber = 30;
+
+const gameCalc = (numberOfGames) => {
   const rules = 'What is the result of the expression?';
   const operations = ['+', '-', '*'];
   const games = [];

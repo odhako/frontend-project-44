@@ -10,20 +10,23 @@ const gameCalc = (numberOfGames, maxRandomNumber) => {
     const number1 = randomNumber();
     const number2 = randomNumber();
     const question = `${number1} ${randomOperation} ${number2}`;
+    let rightAnswer;
 
     switch (randomOperation) {
       case '+':
-        games.push([question, (number1 + number2).toString()]);
+        rightAnswer = (number1 + number2).toString();
         break;
       case '-':
-        games.push([question, (number1 - number2).toString()]);
+        rightAnswer = (number1 - number2).toString();
         break;
       case '*':
-        games.push([question, (number1 * number2).toString()]);
+        rightAnswer = (number1 * number2).toString();
         break;
       default:
         break;
     }
+
+    games.push([question, rightAnswer]);
   }
 
   return gameContents;

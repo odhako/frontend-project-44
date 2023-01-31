@@ -8,7 +8,7 @@ const gameCalc = (numberOfGames) => {
 
   for (let i = 0; i < numberOfGames; i += 1) {
     const randomOperation = operations[Math.floor(Math.random() * operations.length)];
-    const randomNumber = () => Math.floor(Math.random() * maxRandomNumber);
+    const randomNumber = () => Math.floor(Math.random() * maxRandomNumber) + 1;
     const number1 = randomNumber();
     const number2 = randomNumber();
     const question = `${number1} ${randomOperation} ${number2}`;

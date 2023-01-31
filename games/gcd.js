@@ -19,7 +19,7 @@ const gameGcd = (numberOfGames) => {
   const gameContents = [rules, games];
 
   for (let i = 0; i < numberOfGames; i += 1) {
-    const randomNumber = () => Math.floor(Math.random() * maxRandomNumber);
+    const randomNumber = () => Math.floor(Math.random() * maxRandomNumber) + 1;
     const number1 = randomNumber();
     const number2 = randomNumber();
     const question = `${number1} ${number2}`;

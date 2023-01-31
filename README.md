@@ -14,6 +14,7 @@ JavaScript training project. Games for console terminal about numbers.
 - `npm ci`
 - `npm publish --dry-run`
 - `npm link` (may require `sudo`)
+
 Now you can launch game in any directory by typing its name.
 
 #### Games:
